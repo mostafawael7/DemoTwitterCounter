@@ -12,7 +12,6 @@
 
 /* Begin PBXFileReference section */
 		1C12D4D12E622503000410F9 /* DemoTwitterCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTwitterCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C12D4DF2E622520000410F9 /* TwitterCounterPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TwitterCounterPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +39,6 @@
 			children = (
 				1C12D4D32E622503000410F9 /* DemoTwitterCounter */,
 				1C12D4D22E622503000410F9 /* Products */,
-				1C12D4DF2E622520000410F9 /* TwitterCounterPackage */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +101,7 @@
 			mainGroup = 1C12D4C82E622503000410F9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				1C12D4E02E622556000410F9 /* XCLocalSwiftPackageReference "TwitterCounterPackage" */,
+				1C95A76F2E62273A009DC8E1 /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1C12D4D22E622503000410F9 /* Products */;
@@ -337,9 +335,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		1C12D4E02E622556000410F9 /* XCLocalSwiftPackageReference "TwitterCounterPackage" */ = {
+		1C95A76F2E62273A009DC8E1 /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = TwitterCounterPackage;
+			relativePath = ../TwitterCounterPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
