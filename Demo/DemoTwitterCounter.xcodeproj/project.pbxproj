@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C12D4E22E622556000410F9 /* TwitterCounter in Frameworks */ = {isa = PBXBuildFile; productRef = 1C12D4E12E622556000410F9 /* TwitterCounter */; };
+		1C1685522E623D8100511F5A /* TwitterCounter in Frameworks */ = {isa = PBXBuildFile; productRef = 1C1685512E623D8100511F5A /* TwitterCounter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C12D4E22E622556000410F9 /* TwitterCounter in Frameworks */,
+				1C1685522E623D8100511F5A /* TwitterCounter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = DemoTwitterCounter;
 			packageProductDependencies = (
-				1C12D4E12E622556000410F9 /* TwitterCounter */,
+				1C1685512E623D8100511F5A /* TwitterCounter */,
 			);
 			productName = DemoTwitterCounter;
 			productReference = 1C12D4D12E622503000410F9 /* DemoTwitterCounter.app */;
@@ -101,7 +101,7 @@
 			mainGroup = 1C12D4C82E622503000410F9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				1C95A76F2E62273A009DC8E1 /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */,
+				1C1685502E623D8100511F5A /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1C12D4D22E622503000410F9 /* Products */;
@@ -187,7 +187,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -245,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -270,6 +270,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +300,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,14 +339,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		1C95A76F2E62273A009DC8E1 /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */ = {
+		1C1685502E623D8100511F5A /* XCLocalSwiftPackageReference "../TwitterCounterPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../TwitterCounterPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1C12D4E12E622556000410F9 /* TwitterCounter */ = {
+		1C1685512E623D8100511F5A /* TwitterCounter */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TwitterCounter;
 		};

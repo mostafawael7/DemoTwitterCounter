@@ -16,10 +16,6 @@ let package = Package(
         .target(
             name: "TwitterCounter",
             dependencies: []
-        ),
-        .testTarget(
-            name: "TwitterCounterTests",
-            dependencies: ["TwitterCounter"]
         )
     ]
 )
